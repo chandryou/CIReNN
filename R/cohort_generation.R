@@ -17,8 +17,8 @@ setwd(workFolder)
 connectionDetails<-createConnectionDetails(dbms="sql server",
                                            server="128.1.99.53",
                                            schema="nhis_nsc.dbo",
-                                           user="chandryou",
-                                           password="dbtmdcks12#")
+                                           user="",
+                                           password="")
 cdmVersion <- "5" 
 cdmDatabaseSchema <- "nhis_nsc.dbo"
 resultsDatabaseSchema <- "chan_NHID_CVD.dbo"
